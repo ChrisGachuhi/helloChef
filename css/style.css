@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sectionOne{
+    height: 75vh;
+    width: 100vw;
+    /* background-color: aqua; */
+}
+
+.navbar{
+    height: 14%;
+    width: 100%;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: space-between; /* Move along the X-axis*/
+    align-items: center; /* Move along the Y-axis*/
+}
+
+.logo{
+    /* height: 60%; */
+    /* width: 15%; */
+    /* background-color: aqua; */
+    margin-left: 50px;
+    /* styling all the text in the .logo div */
+    color: #e42b13;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.navigation{
+    /* height: 60%; */
+    /* width: 40%; */
+    /* background-color: green; */
+    margin-right: 50px;
+}
+
+.navigation li{
+    display: inline;
+    color: #828282;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.navigation a{
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #e42a12;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+
+.banner{
+    height: 86%;
+    width: 100%;
+    /* background-color: brown; */
+    background-image: url(/Images/bannerImage.webp);
+    background-position: center;
+    background-size: cover;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerText{
+    width: 25%;
+    height: 50%;
+    margin-top: 150px;
+    /* background-color: aqua; */
+    text-align: center;
+}
+
+.bannerText h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #494949;
+}
+
+.bannerText p{
+    font-size: 20px;
+    margin-bottom: 50px;
+    color: #a6a3a0;
+}
+
+.bannerText a{
+    font-size: 24px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #e42a12;
+    padding: 15px 40px;
+    border-radius: 10px;
+}
+
+/* SECTION TWO*/
+.sectionTwo{
+    height: 80vh;
+    width: 100vw;
+    /* background-color: brown; */
+}
+
+.sectionTwoTitle{
+    height: 25%;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionTwoTitle h2{
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #575757;
+}
+
+.sectionTwoTitle p{
+    font-size: 20px;
+    color: #676767;
+}
+
+.sectionTwoDescription{
+    height: 75%;
+    width: 100%;
+    /* background-color: aqua; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.package{
+    height: 95%;
+    width: 23%;
+    margin-right: 50px;
+}
+
+.package .image{
+    height: 45%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.package .description{
+    height: 55%;
+    width: 100%;
+}
+
+.description h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #494949;
+}
+
+.description p{
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #676767;
+}
+
+.convenience .image{
+    background-image: url(/Images/convenience.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.variety .image{
+    background-image: url(/Images/variety.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.deliciousness .image{
+    background-image: url(/Images/deliciousness.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+/* SECTION THREE */
+.sectionThree{
+    height: 75vh;
+    width: 100vw;
+
+    display: flex;
+}
+
+.pageImage{
+    height: 100%;
+    width: 50%;
+    background-image: url(/Images/howitworks.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.pageContent{
+    height: 100%;
+    width: 50%;
+    background-color: #fbe6de;
+}
+
+.pageItems{
+    width: 80%;
+    margin-left: 10%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+}
+
+.itemNumber{
+    font: 600px;
+    color: #e42b13;
+}
+
+/* SECTION FOUR */
+.sectionFour{
+    height: 78vh;
+    width: 100vw;
+    background-color: #f3f4f6;
+}
+
+.sectionFour .title{
+    height: 15%;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 36px;
+    font-weight: 400;
+    text-decoration: underline;
+    color: #4c4c4c;
+}
+
+.sectionFour .testimonials{
+    height: 55%;
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionFour .images{
+    height: 90%;
+    width: 18%;
+    background-color: white;
+    margin-right: 20px;
+}
+
+.sectionFour .one{
+    background-image: url(/Images/one.webp);
+    background-position: center;
+    background-size: cover;
+}
+.sectionFour .two{
+    background-image: url(/Images/two.webp);
+    background-position: center;
+    background-size: cover;
+}
+.sectionFour .three{
+    background-image: url(/Images/three.webp);
+    background-position: center;
+    background-size: cover;
+}
+.sectionFour .four{
+    background-image: url(/Images/four.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.sectionFour .ratings{
+    height: 30%;
+    width: 100%;
+    /* background-color: red; */
+    text-align: center;
+
+}
+
+.sectionFour p{
+    font-size: 32px;
+    margin-top: 10px;
+    color: #686868;
+}
+
+.sectionFour .meals{
+    color: #e64733;
+}
+
+.sectionFour .stats{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.sectionFour .stars{
+    color: #f6ad01;
+    margin-right: 20px;
+}
+
+.sectionFour img{
+    height: 20px;
+}
+
+/* SECTION FIVE */
+.sectionFive{
+    height: 75vh;
+    width: 100vw;
+    background-color: aqua;
+}
+
+.sectionFive .subscribe{
+    height: 50%;
+    width: 70%;
+    background-color: blue;
+    text-align: center;
+}
